@@ -2,7 +2,6 @@ const http = require('http');
 const express = require('express');
 const htmlRoutes = require('./routes/htmlRoutes');
 const apiRoutes = require('./routes/apiRoutes');
-const req = require('express/lib/request');
 const app = express();
 
 

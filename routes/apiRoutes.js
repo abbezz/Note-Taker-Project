@@ -1,10 +1,5 @@
-const { reverse } = require("dns")
-
-
 const express = require("express")
-
 const router = express.Router()
-
 const fs =  require("fs")
 
 router.get("/api/notes",(req, res) => {
